@@ -86,16 +86,32 @@ class MeltComposition:
             # p2o5 = (-0.0438 * 0.5 ** 2 + 0.2943 * 0.5 + 0.5277)/melt_fraction
             # mno = 0.14/melt_fraction
             # tio2 = 1/melt_fraction
-            sio2 = 48.39/ melt_fraction
-            al2o3 = 18.83/ melt_fraction
-            feot =11.3 / melt_fraction
-            mgo = 5.98/ melt_fraction
-            cao = 10.10 / melt_fraction
-            na2o = 3.21/ melt_fraction
-            k2o = 0.43 / melt_fraction
-            p2o5 = 0.20/ melt_fraction
-            mno = 0.20 / melt_fraction
-            tio2 = 1.36/ melt_fraction
+
+            #OKMOK EVOLVED
+            sio2 = 56.65/ melt_fraction
+            al2o3 = 13.99/ melt_fraction
+            feot =11.4 / melt_fraction
+            mgo = 3.94/ melt_fraction
+            cao = 7.03 / melt_fraction
+            na2o = 3.45 / melt_fraction
+            k2o = 1.28 / melt_fraction
+            p2o5 = 0.27/ melt_fraction
+            mno = 0.31 / melt_fraction
+            tio2 = 1.68/ melt_fraction
+
+
+            # OKMOK PRIMITIVE
+            # sio2 =46.42/ melt_fraction
+            # al2o3 = 16.56/ melt_fraction
+            # feot = 14.09 / melt_fraction
+            # mgo = 7.6/ melt_fraction
+            # cao = 12.15 / melt_fraction
+            # na2o = 1.97 / melt_fraction
+            # k2o = .2 / melt_fraction
+            # p2o5 = 0.01/ melt_fraction
+            # mno = 0.39 / melt_fraction
+            # tio2 = .62/ melt_fraction
+
 
             # sio2 = 48.06/ melt_fraction
             # al2o3 = 19.783/ melt_fraction

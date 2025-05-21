@@ -25,16 +25,16 @@ from SCSS_model import Sulfur_Saturation
 # Basic input
 ###############################################################################
 # Input of all the initial conditions
-temperature = 1100 # temperature in C
+temperature = 1080 # temperature in C
 # fO2 relative to FMQ buffer; if redox evolution is enabled, this is the initial fO2 at the initial P and T; if redox
 # evolution is disabled, the degassing would be buffered at this delta_FMQ
-delta_FMQ = 1.2
+delta_FMQ = 0.75
 # initial H2O in wt.%
-H2O_initial = 4
+H2O_initial = 2.4
 # initial CO2 in ppm
-CO2_initial = 1400
+CO2_initial = 1799
 # initial S in ppm
-S_initial = 1500
+S_initial = 1266
 # initial d34s in the melt
 d34s_m_initial = 1
 # Crystallization or not? If 1, crystallization is enabled; if 0, crystallization disabled
@@ -67,6 +67,12 @@ sulfide = {"Fe": 65.43,
             "O": 0,
             "S": 36.47
             }
+#sulfide = {"Fe": 31.82,
+#            "Ni": 2,
+#            "Cu": 39,
+#            "O": 2.01,
+#            "S": 25.18
+#            }
 # degassing style: if 0, fully closed degassing; if x, degassing become open when pressure is lower than xMPa
 open_degassing = 0
 
@@ -96,10 +102,10 @@ constant_h2o = 3.689
 # MI data and output csv file
 # Read melt inclusion data that needs to be compared with the model results
 # All the file have to be csv files with the format as in the example; file names need to end in ".csv"
-mi_name = "Fuego.csv"
+mi_name = "Okmok.csv"
 df = pd.read_csv(mi_name)
 # name of the output csv file
-output_name = f"IH_nocry_T{temperature}_dFMQ{delta_FMQ}_H2O{H2O_initial}.csv"
+output_name = f"OKMG_nocry_T{temperature}_dFMQ{delta_FMQ}_H2O{H2O_initial}.csv"
 
 # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO

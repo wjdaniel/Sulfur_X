@@ -33,6 +33,12 @@ class COHS_degassing:
         self.d34s_0 = d34s_initial
         # self.sul_sat= sulfide
         # sulfide composition in wt.%; only relevant if SCSS is of interests.
+        #self.sulfide = {"Fe": 31.82,
+        #                "Ni": 2,
+        #                "Cu": 39,
+        #                "O": 2.01,
+        #                "S": 25.18
+        #                }
         self.sulfide = {"Fe": 65.43,
                         "Ni": 0,
                         "Cu": 0,
