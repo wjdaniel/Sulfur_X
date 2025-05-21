@@ -56,9 +56,9 @@ else:
 # name of the output file of monte_carlo simulations.
 monte_name = "multiple_simulation_S.csv"
 # The total steps of pressure from initial P to 1 bar. Please make sure the pressure step is small enough.
-l = 600
+l = 1000
 # total numbers of runs along degassing. This decides if the degassing model run till 1bar or not.
-m = 600
+m = 1000
 # sulfide composition (in wt.%), only relevant if SCSS is of interest;
 # please change both here and in the degassingrun.py file
 sulfide = {"Fe": 65.43,
@@ -105,7 +105,7 @@ constant_h2o = 3.689
 mi_name = "Okmok.csv"
 df = pd.read_csv(mi_name)
 # name of the output csv file
-output_name = f"OKMG_nocry_T{temperature}_dFMQ{delta_FMQ}_H2O{H2O_initial}.csv"
+output_name = f"Cleveland_ncry_T{temperature}_dFMQ{delta_FMQ}_H2O{H2O_initial}.csv"
 
 # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
