@@ -87,17 +87,42 @@ class MeltComposition:
             # mno = 0.14/melt_fraction
             # tio2 = 1/melt_fraction
 
-            #OKMOK EVOLVED
-            sio2 = 56.65/ melt_fraction
-            al2o3 = 13.99/ melt_fraction
-            feot =11.4 / melt_fraction
-            mgo = 3.94/ melt_fraction
-            cao = 7.03 / melt_fraction
-            na2o = 3.45 / melt_fraction
-            k2o = 1.28 / melt_fraction
-            p2o5 = 0.27/ melt_fraction
-            mno = 0.31 / melt_fraction
-            tio2 = 1.68/ melt_fraction
+            # #OKMOK EVOLVED
+            # sio2 = 56.65/ melt_fraction
+            # al2o3 = 13.99/ melt_fraction
+            # feot =11.4 / melt_fraction
+            # mgo = 3.94/ melt_fraction
+            # cao = 7.03 / melt_fraction
+            # na2o = 3.45 / melt_fraction
+            # k2o = 1.28 / melt_fraction
+            # p2o5 = 0.27/ melt_fraction
+            # mno = 0.31 / melt_fraction
+            # tio2 = 1.68/ melt_fraction
+
+
+            # #CLEVELAND HIGH CO2
+            # sio2 = 52.98/ melt_fraction
+            # al2o3 = 19.01/ melt_fraction
+            # feot = 7.498/ melt_fraction
+            # mgo = 3.79/ melt_fraction
+            # cao = 10.91 / melt_fraction
+            # na2o = 3.274 / melt_fraction
+            # k2o = 0.4976 / melt_fraction
+            # p2o5 = 0.3353/ melt_fraction
+            # mno = 0.3636 / melt_fraction
+            # tio2 = 1.314/ melt_fraction
+
+            #CLEVELAND HIGH S
+            sio2 = 54.06/ melt_fraction
+            al2o3 = 19.108/ melt_fraction
+            feot =6.900 / melt_fraction
+            mgo = 2.743/ melt_fraction
+            cao = 10.935 / melt_fraction
+            na2o = 3.40 / melt_fraction
+            k2o = 0.549 / melt_fraction
+            p2o5 = 0.2118/ melt_fraction
+            mno = 0.436 / melt_fraction
+            tio2 = 1.65/ melt_fraction
 
 
             # OKMOK PRIMITIVE
