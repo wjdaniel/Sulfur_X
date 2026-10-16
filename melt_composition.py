@@ -98,7 +98,56 @@ class MeltComposition:
             # p2o5 = 0.27/ melt_fraction
             # mno = 0.31 / melt_fraction
             # tio2 = 1.68/ melt_fraction
+            
+            # # #CLEVELAND PRIMITIVE
+            # sio2 = 48.616/ melt_fraction
+            # al2o3 = 18.472/ melt_fraction
+            # feot = 8.770/ melt_fraction
+            # mgo = 8.3821/ melt_fraction
+            # cao = 11.868 / melt_fraction
+            # na2o = 2.444 / melt_fraction
+            # k2o = 0.3521 / melt_fraction
+            # p2o5 = 0.1604/ melt_fraction
+            # mno = 0.1863 / melt_fraction
+            # tio2 = 0.746/ melt_fraction
 
+            # # #CLEVELAND 2k ppm CO2 comp fo90
+            # sio2 = 49.298/ melt_fraction
+            # al2o3 = 18.712/ melt_fraction
+            # feot = 8.3553/ melt_fraction
+            # mgo = 6.3674/ melt_fraction
+            # cao = 13.3172/ melt_fraction
+            # na2o = 2.47817 / melt_fraction
+            # k2o = 0.3607 / melt_fraction
+            # p2o5 = 0.13549/ melt_fraction
+            # mno = 0.232 / melt_fraction
+            # tio2 = 0.7426/ melt_fraction
+
+
+            # Cleveland UT-04 Fo88.5
+
+            # sio2 = 49.045/ melt_fraction
+            # al2o3 = 19.241/ melt_fraction
+            # feot = 6.2176/ melt_fraction
+            # mgo = 5.994/ melt_fraction
+            # cao = 12.164/ melt_fraction
+            # na2o = 2.637 / melt_fraction
+            # k2o = 0.3514 / melt_fraction
+            # p2o5 = 0.1456/ melt_fraction
+            # mno = 0.1427 / melt_fraction
+            # tio2 = 0.808/ melt_fraction
+
+            # # #CLEVELAND EVOLVED
+            # sio2 = 67.28/ melt_fraction
+            # al2o3 = 13.51/ melt_fraction
+            # feot = 5.85/ melt_fraction
+            # mgo = 1.83/ melt_fraction
+            # cao = 4.77 / melt_fraction
+            # na2o = 3.97 / melt_fraction
+            # k2o = 1.72 / melt_fraction
+            # p2o5 = 0.16/ melt_fraction
+            # mno = 0.17 / melt_fraction
+            # tio2 = 0.74/ melt_fraction
 
             # #CLEVELAND HIGH CO2
             # sio2 = 52.98/ melt_fraction
@@ -112,7 +161,7 @@ class MeltComposition:
             # mno = 0.3636 / melt_fraction
             # tio2 = 1.314/ melt_fraction
 
-            #CLEVELAND HIGH S
+            # #CLEVELAND HIGH S
             sio2 = 54.06/ melt_fraction
             al2o3 = 19.108/ melt_fraction
             feot =6.900 / melt_fraction
